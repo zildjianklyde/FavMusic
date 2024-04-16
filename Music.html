@@ -1,0 +1,900 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favorite Musics</title>
+    <link rel="stylesheet" href="./assets/stylesheet.css">
+    <link rel="website icon" type="png" href="./assets/Spotify--logo.png">
+</head>
+<body>
+
+
+    <div class="container">
+        
+        <h1 class="fav-music"><a href="./index.html"><h4 class="nav-text">
+    <button class="button-49" role="button">Home</button> </a> <div></div> <br>Favorite Music</h1>
+        <h2>Favorite Songs</h2>
+        <ul class="music-list">
+            <li class="music-item">
+                <div class="image-container"onclick="showFullImage(this)">
+                    <img src="./assets/This-Old-Dog.jpg" alt="For the First Time">
+                </div>
+                <div class="music--names"> 
+                    <a href="https://open.spotify.com/track/2R4AlwtrrkMaRKojcTIzmL?si=3c3c7bea130649cf" target="_blank"><h2>For the First Time</h2></a>
+                    <p>Artist: Mac DeMarco</p>
+                    <p>Genre: Alternative/Indie</p>
+                </div>
+                <div class="space--empty"> </div>
+                <div class="accordion-body">
+                    <div class="accordion">
+                      <hr>
+                      <div class="container">
+                        <div class="label"></div>
+                        <div class="content"><audio controls> 
+                            <source src="./assets/Assets-songs/For the First Time.mp3" type="audio/ogg">
+                            <source src="./assets/Assets-songs/For the First Time.mp3" type="audio/mpeg">
+                            Your browser does not support the audio tag
+                        </audio> </div>
+                      </div>
+                      <hr>
+                     </div>
+                    </div>
+            </li>
+            <li class="music-item">
+                <div class="image-container"onclick="showFullImage(this)">
+                    <img src="./assets/Flower-Boy.jpg" alt="911/Mr.Lonely">
+                </div>
+                <div>
+                    <a href="https://open.spotify.com/track/4bEcoz1OcfMgUbp2ft8ieQ?si=ee8957ca445e4138" target="_blank"><h2>911/Mr.Lonely</h2></a>
+                    <p class="tyler--p">Artist: Tyler, The Creator
+                    <br>/Frank Ocean/Steve Lacy</p>
+                    <p class="tyler--p">Genre: HipHop Rap</p>
+                </div> <div class="space--empty"> </div>
+                <div class="accordion-body">
+                    <div class="accordion">
+                      <hr>
+                      <div class="container">
+                        <div class="label"></div>
+                        <div class="content"><audio controls> 
+                            <source src="./assets/Assets-songs/Tyler, The Creator - 911 ⧸ Mr. Lonely (Audio).mp3" type="audio/ogg">
+                            <source src="./assets/Assets-songs/Tyler, The Creator - 911 ⧸ Mr. Lonely (Audio).mp3" type="audio/mpeg">
+                            Your browser does not support the audio tag
+                        </audio> </div>
+                      </div>
+                      <hr>
+                     </div>
+                </div>
+                <li class="music-item">
+                    <div class="image-container"onclick="showFullImage(this)">
+                        <img src="./assets/Be the Cowboy.jpg" alt="Nobody">
+                    </div>
+                    <div>
+                        <a href="https://open.spotify.com/track/2P5yIMu2DNeMXTyOANKS6k?si=5405326629a54d1b" target="_blank"><h2>Nobody</h2></a>
+                        <p>Artist:Mitski</p>
+                        <p>Genre: Alternative/Indie</p>
+                    </div><div class="space--empty"> </div>
+                    <div class="accordion-body">
+                        <div class="accordion">
+                          <hr>
+                          <div class="container">
+                            <div class="label"></div>
+                            <div class="content"><audio controls> 
+                                <source src="./assets/Assets-songs/Mitski - Nobody (Official Video).mp3" type="audio/ogg">
+                                <source src="./assets/Assets-songs/Mitski - Nobody (Official Video).mp3" type="audio/mpeg">
+                                Your browser does not support the audio tag
+                            </audio> </div>
+                          </div>
+                          <hr>
+                         </div>
+                    </div>
+                   
+                </li>
+                
+            </li>
+        </ul>
+        <button class="btn-31" id="showMoreSongs"><span class="text-container">
+            <span class="text">Click here to see more songs</span>
+          </span>
+        </button>
+        <ul class="music-list hide" id="moreSongs">
+            <li class="music-item">
+                <div class="image-container"onclick="showFullImage(this)">
+                    <img src="./assets/Blond.jpg" alt="Pink + White">
+                </div>
+                <div>
+                    <a href="https://open.spotify.com/track/2ZWlPOoWh0626oTaHrnl2a?si=3c884f37fcba4913" target="_blank"><h2>Ivy</h2></a>
+                    <p>Artist: Frank Ocean</p>
+                    <p>Genre: Neo-soul/Pop song</p>
+                </div><div class="space--empty"> </div>
+                <div class="accordion-body">
+                    <div class="accordion">
+                      <hr>
+                      <div class="container">
+                        <div class="label"></div>
+                        <div class="content"><audio controls> 
+                            <source src="./assets/Assets-songs/Frank Ocean - Ivy.mp3" type="audio/ogg">
+                            <source src="./assets/Assets-songs/Frank Ocean - Ivy.mp3" type="audio/mpeg">
+                            Your browser does not support the audio tag
+                        </audio> </div>
+                      </div>
+                      <hr>
+                     </div>
+                </div>
+                
+            </li>
+            
+            <li class="music-item">
+                <div class="image-container"onclick="showFullImage(this)">
+                    <img src="./assets/Currents.png" alt="Let it Happen">
+                </div>
+                <div>
+                  <a href="https://open.spotify.com/track/2X485T9Z5Ly0xyaghN73ed?si=069c208051bc457d" target="_blank">  <h2>Let it Happen</h2></a>
+                    <p>Artist: Tame Implana</p>
+                    <p>Genre: Psychedelic Pop</p>
+                </div><div class="space--empty"> </div>
+                <div class="accordion-body">
+                    <div class="accordion">
+                      <hr>
+                      <div class="container">
+                        <div class="label"></div>
+                        <div class="content"><audio controls> 
+                            <source src="./assets/Assets-songs/Tame Impala - Let It Happen (Official Audio).mp3" type="audio/ogg">
+                            <source src="./assets/Assets-songs/Tame Impala - Let It Happen (Official Audio).mp3" type="audio/mpeg">
+                            Your browser does not support the audio tag
+                        </audio> </div>
+                      </div>
+                      <hr>
+                     </div>
+                </div>
+                
+            </li>     <li class="music-item">
+                <div class="image-container"onclick="showFullImage(this)">
+                    <img src="./assets/Patched Up.jpg" alt="Dance with me">
+                </div>
+                <div>
+                    <a href="https://open.spotify.com/track/2sBKLT7bFa38yVAYxYltUX?si=7ed7e188316e4c56" target="_blank"><h2>Dance With Me</h2></a>
+                    <p>Artist: Beabadobee</p>
+                    <p>Genre: Alternative/Indie</p>
+                </div><div class="space--empty"> </div>
+                <div class="accordion-body">
+                    <div class="accordion">
+                      <hr>
+                      <div class="container">
+                        <div class="label"></div>
+                        <div class="content"><audio controls> 
+                            <source src="./assets/Assets-songs/beabadoobee - Dance with Me.mp3" type="audio/ogg">
+                            <source src="./assets/Assets-songs/beabadoobee - Dance with Me.mp3" type="audio/mpeg">
+                            Your browser does not support the audio tag
+                        </audio> </div>
+                      </div>
+                      <hr>
+                     </div>
+                </div>
+                
+            </li>
+            <li class="music-item">
+                <div class="image-container"onclick="showFullImage(this)">
+                    <img src="./assets/Twilight_(Bôa_album).jpg" alt="Rain">
+                </div>
+                <div>
+                    <a href="https://open.spotify.com/track/2ovLRfotBro4W3pRaEha8I?si=c26ca9810e3745be" target="_blank"><h2>Rain</h2></a>
+                    <p>Artist: bôa</p>
+                    <p>Genre: Alternative/Rock</p>
+                </div><div class="space--empty"> </div>
+                <div class="accordion-body">
+                    <div class="accordion">
+                      <hr>
+                      <div class="container">
+                        <div class="label"></div>
+                        <div class="content"><audio controls> 
+                            <source src="./assets/Assets-songs/Rain.mp3" type="audio/ogg">
+                            <source src="./assets/Assets-songs/Rain.mp3" type="audio/mpeg">
+                            Your browser does not support the audio tag
+                        </audio> </div>
+                      </div>
+                      <hr>
+                     </div>
+                </div>
+                
+            </li>
+            <li class="music-item">
+                <div class="image-container"onclick="showFullImage(this)">
+                    <img src="./assets/Flower-Boy.jpg" alt="See you Again">
+                </div>
+                <div>
+                    <a href="https://open.spotify.com/track/7KA4W4McWYRpgf0fWsJZWB?si=5c49cf3b918544d0" target="_blank"><h2 class="tyler">See You Again</h2></a>
+                    <p>Artist: Tyler,The Creator/Kali Uchis</p>
+                    <p>Genre: Hip-Hop/Rap  </p>
+                </div><div class="space--empty"> </div>
+                <div class="accordion-body">
+                    <div class="accordion">
+                      <hr>
+                      <div class="container">
+                        <div class="label"></div>
+                        <div class="content"><audio controls> 
+                            <source src="./assets/Assets-songs/See You Again (Feat. Kali Uchis) ⧸⧸ Tyler, The Creator.mp3" type="audio/ogg">
+                            <source src="./assets/Assets-songs/See You Again (Feat. Kali Uchis) ⧸⧸ Tyler, The Creator.mp3" type="audio/mpeg">
+                            Your browser does not support the audio tag
+                        </audio> </div>
+                      </div>
+                      <hr>
+                     </div>
+                </div>
+                
+            </li>
+            <li class="music-item">
+                <div class="image-container"onclick="showFullImage(this)">
+                    <img src="./assets/Ultraviolence.png" alt="Pretty When you Cry">
+                </div>
+                <div>
+                    <a href="https://open.spotify.com/track/6PnluwP0fjGnpIBsqTdUTq?si=53ffd65d2d574f1b" target="_blank"> <h2>Pretty When You Cry</h2></a>
+                    <p>Artist: Lana Del Rey</p>
+                    <p>Genre: Alternative/Indie</p>
+                </div><div class="space--empty"> </div>
+                <div class="accordion-body">
+                    <div class="accordion">
+                      <hr>
+                      <div class="container">
+                        <div class="label"></div>
+                        <div class="content"><audio controls> 
+                            <source src="./assets/Assets-songs/Pretty When You Cry.mp3" type="audio/ogg">
+                            <source src="./assets/Assets-songs/Pretty When You Cry.mp3" type="audio/mpeg">
+                            Your browser does not support the audio tag
+                        </audio> </div>
+                      </div>
+                      <hr>
+                     </div>
+                </div>
+                
+            </li>
+            <li class="music-item">
+                <div class="image-container"onclick="showFullImage(this)">
+                    <img src="./assets/Atlanta Millionare.jpg" alt="Hurts me too">
+                </div>
+                <div>
+                    <a href="https://open.spotify.com/track/0uphGVj1uIticJK6gb2WnO?si=e4c625d1dd7348db" target="_blank"> <h2>Hurts Me Too</h2></a>
+                    <p>Artist: Faye Webster</p>
+                    <p>Genre: Alternative/Indie</p>
+                </div><div class="space--empty"> </div>
+                <div class="accordion-body">
+                    <div class="accordion">
+                      <hr>
+                      <div class="container">
+                        <div class="label"></div>
+                        <div class="content"><audio controls> 
+                            <source src="./assets/Assets-songs/Hurts Me Too.mp3" type="audio/ogg">
+                            <source src="./assets/Assets-songs/Hurts Me Too.mp3" type="audio/mpeg">
+                            Your browser does not support the audio tag
+                        </audio> </div>
+                      </div>
+                      <hr>
+                     </div>
+                </div>
+               
+            </li>   
+            <li class="music-item">
+            <div class="image-container"onclick="showFullImage(this)">
+                <img src="./assets/Amoeba.jpg" alt="Amoeba">
+            </div>
+            <div>
+                <a href="https://open.spotify.com/track/0HAqq2GcQKyi3s87GuN7jU?si=cf0a69a4446545fb" target="_blank"><h2>Amoeba</h2></a>
+                <p>Artist: Clairo</p>
+                <p>Genre: Alternative/Indie</p>
+            </div><div class="space--empty"> </div>
+            <div class="accordion-body">
+                <div class="accordion">
+                  <hr>
+                  <div class="container">
+                    <div class="label"></div>
+                    <div class="content"><audio controls> 
+                        <source src="./assets/Assets-songs/Clairo - Amoeba.mp3" type="audio/ogg">
+                        <source src="./assets/Assets-songs/Clairo - Amoeba.mp3" type="audio/mpeg">
+                        Your browser does not support the audio tag
+                    </audio> </div>
+                  </div>
+                  <hr>
+                 </div>
+            </div>
+           
+        </li>
+        <li class="music-item">
+            <div class="image-container"onclick="showFullImage(this)">
+                <img src="./assets/Lush.jpg" alt="Amoeba">
+            </div>
+            <div>
+                <a href="https://open.spotify.com/track/47k7FCxk7ylTwKCnJ3QTVc?si=9178b858224f48d6" target="_blank">  <h2>Brand New City</h2></a>
+                <p>Artist: Mitski</p>
+                <p>Genre: Alternative/Electronic</p>
+            </div><div class="space--empty"> </div>
+            <div class="accordion-body">
+                <div class="accordion">
+                  <hr>
+                  <div class="container">
+                    <div class="label"></div>
+                    <div class="content"><audio controls> 
+                        <source src="./assets/Assets-songs/Mitski - Brand New City (Official Audio).mp3" type="audio/ogg">
+                        <source src="./assets/Assets-songs/Mitski - Brand New City (Official Audio).mp3" type="audio/mpeg">
+                        Your browser does not support the audio tag
+                    </audio> </div>
+                  </div>
+                  <hr>
+                 </div>
+            </div>
+           
+        </li>
+        <li class="music-item">
+            <div class="image-container"onclick="showFullImage(this)">
+                <img src="./assets/French Exit.jpg" alt="Amoeba">
+            </div>
+            <div>
+                <a href="https://open.spotify.com/track/21LkHnuxPxVrOZ5gCaG7aM?si=ace6f6487f7540ae" target="_blank">  <h2>Birds Don't Sing</h2></a>
+                <p>Artist: TV Girl</p>
+                <p>Genre: Alternative/Indie</p>
+            </div><div class="space--empty"> </div>
+            <div class="accordion-body">
+                <div class="accordion">
+                  <hr>
+                  <div class="container">
+                    <div class="label"></div>
+                    <div class="content"><audio controls> 
+                        <source src="./assets/Assets-songs/TV Girl - ＂Birds Don't Sing＂.mp3" type="audio/ogg">
+                        <source src="./assets/Assets-songs/TV Girl - ＂Birds Don't Sing＂.mp3" type="audio/mpeg">
+                        Your browser does not support the audio tag
+                    </audio> </div>
+                  </div>
+                  <hr>
+                 </div>
+            </div>
+           
+        </li>
+        <li class="music-item">
+            <div class="image-container"onclick="showFullImage(this)">
+                <img src="./assets/Channel Orange.jpg" alt="Amoeba">
+            </div>
+            <div>
+                <a href="https://open.spotify.com/track/4QhWbupniDd44EDtnh2bFJ?si=e66c399c778b40a8" target="_blank"><h2>Pyramids</h2></a>
+                <p>Artist: Frank Ocean</p>
+                <p>Genre:Funk, Hip-Hop/Rap</p>
+            </div><div class="space--empty"> </div>
+            <div class="accordion-body">
+                <div class="accordion">
+                  <hr>
+                  <div class="container">
+                    <div class="label"></div>
+                    <div class="content"><audio controls> 
+                        <source src="./assets/Assets-songs/Pyramids.mp3" type="audio/ogg">
+                        <source src="./assets/Assets-songs/Pyramids.mp3" type="audio/mpeg">
+                        Your browser does not support the audio tag
+                    </audio> </div>
+                  </div>
+                  <hr>
+                 </div>
+            </div>
+           
+        </li></ul>
+    
+        <h2>Favorite Albums</h2>
+        <ul class="album-list">
+
+            <li class="album-item">
+                
+                <div><div class="image-container"onclick="showFullImage(this)">
+                    <img src="./assets/Patched Up.jpg" alt="Album Image 1">
+                </div>
+                    <a href="https://open.spotify.com/album/7zPBy6Rjmijd4p8drmQPu7?si=HxzoXvZtQoyXid8aPRAxSA" target="_blank"><h2>Patched Up</h2> </a>
+                    <p>Artist: Beabadobee</p>
+                    <p>Genre: Alternative/Indie</p>
+                </div>
+                
+                    <div class="accordion">
+                        <ul class="album-list">
+                            <li class="album-item--album">
+                                <div class="album-header"><h2>Tracks</h2></div>
+                                <ol class="song-list">
+                                    <li><p>Everest </p></li>
+                                    <li><p>Tired </p></li>
+                                    <li><p>Dance With Me </p></li>
+                                    <li><p>Art Class </p> </li>
+                                    <li>  <p>If You Want To </p></li>
+                                    <li> <p>Eighteen</p></li>
+                                    <li> <p>The Way I spoke</p>
+                                    </li></ol>
+                            </li> 
+                        </ul>
+                    </div>
+            </li>
+
+            <li class="album-item">
+                
+                <div><div class="image-container"onclick="showFullImage(this)">
+                    <img src="./assets/Channel Orange.jpg" alt="Channel Orange">
+                </div>
+                    <a href="https://open.spotify.com/album/392p3shh2jkxUxY2VHvlH8?si=56eee308d0e74faa" target="_blank"><h2>Channel Orange</h2></a>
+                    <p>Artist: Frank Ocean</p>
+                    <p>Genre: R&B/Soul, Hip-Hop/Rap </p>
+                </div>
+                <div class="space--empty"></div> 
+                <div class="accordion">
+                    <ul class="album-list">
+                        <li class="album-item--album">
+                            <div class="album-header"><h2>Tracks</h2></div>
+                            <ol class="song-list">
+                                <li><p>Start </p></li>
+                                <li><p>Thinking Bout You </p></li>
+                                <li><p>Fertilizer </p></li>
+                                <li><p>Sierra Leone </p> </li>
+                                <li> <p>Sweet Life </p></li>
+                                <li> <p>Not Just Money</p></li>
+                                <li> <p>Super Rich Kids</p>
+                                <li> <p>Pilot Jones</p>
+                                <li> <p>Crack Rock</p>
+                                <li> <p>Pyramids</p>
+                                <li> <p>Lost</p>
+                                <li> <p>White</p>
+                                <li> <p>Monks</p>
+                                <li> <p>Bad Religion</p>
+                                <li> <p>Pink Matter</p>
+                                <li> <p>Forrest Gump</p>
+                                <li> <p>End</p>
+                                </li></ol>
+                        </li> 
+                    </ul>
+                </div>
+               
+            </li>
+            <li class="album-item">
+                <div><div class="image-container"onclick="showFullImage(this)">
+                    <img src="./assets/Assets-songs/Norman Fucking Rockwell.png" alt="Album Image 2">
+                </div>
+                    <a href="https://open.spotify.com/track/3RIgHHpnFKj5Rni1shokDj?si=66a1f91ec74b4e4f"><h2>Norman Fucking Rockwell </h2></a>
+                    <p>Artist: Lana Del Rey</p>
+                    <p>Genre: Alternative Indie</p>
+                </div>
+                <div class="space--empty"></div> 
+                <div class="accordion">
+                    <ul class="album-list">
+                        <li class="album-item--album">
+                            <div class="album-header"><h2>Tracks</h2></div>
+                            <ol class="song-list">
+                                <li><p>Norman Fucking Rockwell</p></li>
+                                <li><p>Marines Apartment Complex</p></li>
+                                <li><p>Venice Bitch</p></li>
+                                <li><p>Fuck it I love you</p> </li>
+                                <li> <p>Doin' time</p></li>
+                                <li> <p>Love song</p></li>
+                                <li> <p>Cinnamon Girl</p>
+                                <li> <p>How to disappear</p>
+                                <li> <p>California</p>
+                                <li> <p>The Next Best American Record</p>
+                                <li> <p>The greatest</p>
+                                <li> <p>Bartender</p>
+                                <li> <p>Happiness is a buitterfly</p>
+                                <li> <p>hope is a dangerous thing for a woman like me to have</p>
+                                </li></ol>
+                        </li> 
+                    </ul>
+                </div>
+            </li>
+            <button class="btn-31" id="showMoreAlbums"><span class="text-container">
+                <span class="text">Click here to see more Albums</span>
+              </span>
+            </button>
+            <ul class="album-list hide" id="moreAlbums">
+                <li class="album-item">
+                    
+                    <div><div class="image-container"onclick="showFullImage(this)">
+                        <img src="./assets/Flower-Boy.jpg" alt="Album Image 2">
+                    </div>
+                        <a href="https://open.spotify.com/album/2nkto6YNI4rUYTLqEwWJ3o?si=4371f11939d24b34" target="_blank"><h2>Flower Boy </h2></a>
+                        <p>Artist: Tyler, The Creator</p>
+                        <p>Genre: Hip-Hop/Rap</p>
+                    </div>
+                        
+                    <div class="space--empty--album"> </div>
+                    <div class="accordion">
+                        <ul class="album-list">
+                            <li class="album-item--album">
+                                <div class="album-header"><h2>Tracks</h2></div>
+                                <ol class="song-list">
+                                    <li><p>Foreword </p></li>
+                                    <li><p>Where This Flower Bloom </p></li>
+                                    <li><p>Sometimes... </p></li>
+                                    <li><p>See You Again </p> </li>
+                                    <li> <p>Who Dat Boy</p></li>
+                                    <li> <p>Pothole</p></li>
+                                    <li> <p>Garden Shed</p>
+                                    <li> <p>Boredom</p>
+                                    <li> <p>I Ain't Got Time</p>
+                                    <li> <p>911 / Mr. Lonely</p>
+                                    <li> <p>Droppin' Seeds</p>
+                                    <li> <p>November</p>
+                                    <li> <p>Glitter</p>
+                                    <li> <p>Enjoy Right Now, Today</p>
+                                    </li></ol>
+                            </li> 
+                        </ul>
+                    </div>
+                </li>
+                <li class="album-item">
+                    <div><div class="image-container"onclick="showFullImage(this)">
+                        <img src="./assets/Assets-songs/IGOR.png" alt="Album Image 2">
+                    </div>
+                        <a href="https://open.spotify.com/album/5zi7WsKlIiUXv09tbGLKsE?si=kv4T-_5sQzed-v0hkKPc3A" target="_blank"><h2>IGOR </h2></a>
+                        <p>Artist:Tyler, The Creator</p>
+                        <p>Genre: Contemporary R&B, Neo soul, Funk, Hip-Hop</p>
+                    </div>
+                    
+                    <div class="accordion">
+                        <ul class="album-list">
+                            <li class="album-item--album">
+                                <div class="album-header"><h2>Tracks</h2></div>
+                                <ol class="song-list">
+                                    <li><p>IGOR'S THEME</p></li>
+                                    <li><p>EARFQUAKE</p></li>
+                                    <li><p>I THINK</p></li>
+                                    <li><p>EXACTLY WHAT YOU RUN FROM YOU END UP CHASING</p> </li>
+                                    <li> <p>RUNNING OUT OF TIME</p></li>
+                                    <li> <p>NEW MAGIC WAND</p></li>
+                                    <li> <p>A BOY IS A GUN*</p>
+                                    <li> <p>PUPPET</p>
+                                    <li> <p>WHAT'S GOOD</p>
+                                    <li> <p>GONE, GONE/THANK YOU</p>
+                                    <li> <p>I DON'T LOVE YOU ANYMORE</p>
+                                    <li> <p>ARE WE STILL FRIENDS?</p>
+                                    </li></ol>
+                            </li> 
+                        </ul>
+                    </div>
+                </li>
+                <li class="album-item">
+                    <div><div class="image-container"onclick="showFullImage(this)">
+                        <img src="./assets/Assets-songs/Beatopia.png" alt="Album Image 2">
+                    </div>
+                       <a href="https://open.spotify.com/album/2rhNQbqRNxiNQkDXTffe1V?si=57316b0f2d35417b" target="_blank"> <h2>Beatopia</h2> </a>
+                        <p>Artist:Beabadobee</p>
+                        <p>Genre: Alternative/Indie</p>
+                    </div>
+                    <div class="accordion">
+                        <ul class="album-list">
+                            <li class="album-item--album">
+                                <div class="album-header"><h2>Tracks</h2></div>
+                                <ol class="song-list">
+                                    <li><p>Beatopia Cultsong</p></li>
+                                    <li><p>10:36</p></li>
+                                    <li><p>Sunny Day</p></li>
+                                    <li><p>See you Soon</p> </li>
+                                    <li> <p>Ripples</p></li>
+                                    <li> <p>the perfect pair</p></li>
+                                    <li> <p>broken cd</p>
+                                    <li> <p>Talk</p>
+                                    <li> <p>Lovesong</p>
+                                    <li> <p>Pictures of Us</p>
+                                    <li> <p>fairy song</p>
+                                    <li> <p>don't get the deal</p>
+                                    <li> <p>thinkerbell is overrated</p>
+                                    <li> <p>You're here that's the thing</p>
+                                    </li></ol>
+                            </li> 
+                        </ul>
+                    </div>
+                </li>
+                <li class="album-item">
+                    <div> <div class="image-container"onclick="showFullImage(this)">
+                        <img src="./assets/Assets-songs/Damn.png" alt="Album Image 2">
+                    </div>
+                        <a href="https://open.spotify.com/album/4eLPsYPBmXABThSJ821sqY?si=24c75d3905a54ba5" target="_blank"><h2> DAMN. </h2> </a>
+                        <p>Artist: Kendrick Lamar</p>
+                        <p>Genre: Hip-Hop/Rap</p>
+                    </div>
+                    <div class="accordion">
+                        <ul class="album-list">
+                            <li class="album-item--album">
+                                <div class="album-header"><h2>Tracks</h2></div>
+                                <ol class="song-list">
+                                    <li><p>BLOOD</p></li>
+                                    <li><p>DNA</p></li>
+                                    <li><p>YAH</p></li>
+                                    <li><p>ELEMENT</p> </li>
+                                    <li> <p>FEEL</p></li>
+                                    <li> <p>LOYALTY</p></li>
+                                    <li> <p>PRIDE</p>
+                                    <li> <p>HUMBLE</p>
+                                    <li> <p>LUST</p>
+                                    <li> <p>LOVE</p>
+                                    <li> <p>XXX</p>
+                                    <li> <p>FEAR</p>
+                                    <li> <p>GOD</p>
+                                    <li> <p>DUCKWORTH</p>
+                                    </li></ol>
+                            </li> 
+                        </ul>
+                    </div>
+                </li>
+                <li class="album-item">
+                    <div> <div class="image-container"onclick="showFullImage(this)">
+                        <img src="./assets/Assets-songs/My Beautiful Dark Twisted Fantasy.jpg" alt="Album Image 2">
+                    </div>
+                        <a href="https://open.spotify.com/album/20r762YmB5HeofjMCiPMLv?si=20084c143e1b4953" target="_blank"><h2>My Beautiful Dark Twisted Fantasy </h2> </a>
+                        <p>Artist:Kanye West</p>
+                        <p>Genre: Hip-Hop/Rap</p>
+                    </div>
+                    <div class="accordion">
+                        <ul class="album-list">
+                            <li class="album-item--album">
+                                <div class="album-header"><h2>Tracks</h2></div>
+                                <ol class="song-list">
+                                    <li><p>Dark Fantasy</p></li>
+                                    <li><p>Gorgeous</p></li>
+                                    <li><p>POWER</p></li>
+                                    <li><p>All of the Lights</p> </li>
+                                    <li> <p>Monster</p></li>
+                                    <li> <p>So Appalled</p></li>
+                                    <li> <p>Devil In a New Dress</p>
+                                    <li> <p>Runaway</p>
+                                    <li> <p>Hell of a Life</p>
+                                    <li> <p>Blame Game</p>
+                                    <li> <p>Lost In the World</p>
+                                    <li> <p>Who WIll Survive In America</p>
+                                    <li> <p>See Me Now</p>
+                                    </li></ol>
+                            </li> 
+                        </ul>
+                    </div>
+                </li>
+                <li class="album-item">
+                    <div><div class="image-container"onclick="showFullImage(this)">
+                        <img src="./assets/Assets-songs/Born to die.jpg" alt="Album Image 2">
+                    </div>
+                        <a href="https://open.spotify.com/album/0Dt3FbpMQwjoT5KNAw0IXR?si=b85e51c01ab2421b" target="_blank"><h2>Born To Die - Paradise Edition </h2> </a>
+                        <p>Artist:Lana Del Rey</p>
+                        <p>Genre: Alternative/Indie</p>
+                    </div>
+                    <div class="accordion">
+                        <ul class="album-list">
+                            <li class="album-item--album">
+                                <div class="album-header"><h2>Tracks</h2></div>
+                                <ol class="song-list">
+                                    <li><p>Born To Die</p></li>
+                                    <li><p>Off to the Races</p></li>
+                                    <li><p>Blue Jeans</p></li>
+                                    <li><p>Video Games</p> </li>
+                                    <li> <p>Diet Mountain Dew</p></li>
+                                    <li> <p>National Anthem</p></li>
+                                    <li> <p>Dark Paradise</p>
+                                    <li> <p>Radio</p>
+                                    <li> <p>Carmen</p>
+                                    <li> <p>Million Dollar Man</p>
+                                    <li> <p>Summertime Sadness</p>
+                                    <li> <p>This is What Makes Us Girls</p>
+                                    <li> <p>Without You</p>
+                                    <li> <p>Lolita</p>
+                                    <li> <p>Lucky Ones</p>
+                                    <li> <p>Ride</p>
+                                    <li> <p>American</p>
+                                    <li> <p>Cola</p>
+                                    <li> <p>Body Electric</p>
+                                    <li> <p>Blue Velvet</p>
+                                    <li> <p>Gods & Monsters</p>
+                                    <li> <p>Yayo</p>
+                                    <li> <p>Bel Air</p>
+                                    </li></ol>
+                            </li> 
+                        </ul>
+                    </div>
+                </li>
+                <li class="album-item">
+                    <div><div class="image-container"onclick="showFullImage(this)">
+                        <img src="./assets/Assets-songs/Mignonne.jpg" alt="Album Image 2">
+                    </div>
+                        <a href="https://open.spotify.com/album/0Y4RPWAZZui6gUL1kwgND6?si=bbff02c81d8b444c" target="_blank"><h2>Mignonne </h2> </a>
+                        <p>Artist:Taeko Ohnuki</p>
+                        <p>Genre: City Pop 70's </p>
+                    </div>
+                    <div class="accordion">
+                        <ul class="album-list">
+                            <li class="album-item--album">
+                                <div class="album-header"><h2>Tracks</h2></div>
+                                <ol class="song-list">
+                                    <li><p>じゃじゃ馬娘 (Jajauma Musume)</p></li>
+                                    <li><p> 横顔 (Yokogao) </p></li>
+                                    <li><p>黄昏れ (Tasogare)</p></li>
+                                    <li><p>空をとべたら (Sora wo Tobetara)</p> </li>
+                                    <li> <p>風のオルガン (Kaze no Organ)</p></li>
+                                    <li> <p>言いだせなくて (Iidasenakute)</p></li>
+                                    <li> <p>4:00AM</p>
+                                    <li> <p>突然の贈りもの (Totsuzen no Okurimono) </p>
+                                    <li> <p>海と少年 (Umi to Shounen) </p>
+                                    <li> <p>あこがれ (Akogare)</p>
+                                    </li></ol>
+                            </li> 
+                        </ul>
+                    </div>
+                </li>
+                <li class="album-item">
+                    <div><div class="image-container"onclick="showFullImage(this)">
+                        <img src="./assets/Assets-songs/Graduation.png" alt="Album Image 2">
+                    </div>
+                       <a href="https://open.spotify.com/album/4SZko61aMnmgvNhfhgTuD3?si=026dad0b7bf54562" target="_blank"> <h2>Graduation </h2> </a>
+                        <p>Artist:Kanye West</p>
+                        <p>Genre: Hip-Hop/Rap, Experimental Rap</p>
+                    </div>
+                    <div class="accordion">
+                        <ul class="album-list">
+                            <li class="album-item--album">
+                                <div class="album-header"><h2>Tracks</h2></div>
+                                <ol class="song-list">
+                                    <li><p>Good Morning</p></li>
+                                    <li><p>Champion</p></li>
+                                    <li><p>Stronger</p></li>
+                                    <li><p>I wonder</p> </li>
+                                    <li> <p>Good Life</p></li>
+                                    <li> <p>Can't Tell Me Nothing</p></li>
+                                    <li> <p>Barry Bonds</p>
+                                    <li> <p>Drunk and Hot Girls/p>
+                                    <li> <p>Flashing Lights</p>
+                                    <li> <p>Everytime I am</p>
+                                    <li> <p>The Glory</p>
+                                    <li> <p>Homecoming</p>
+                                    <li> <p>Big Brother</p>
+                                    <li> <p>Good Night</p>
+                                    <li> <p>Bittersweet Poetry</p>
+                                    
+                                    </li></ol>
+                            </li> 
+                        </ul>
+                    </div>
+                </li>
+        </ul>
+    
+        <h2>Favorite Artists</h2>
+        <ul class="artist-list">
+            <li class="artist-item">
+                <div class="image-container"onclick="showFullImage(this)">
+                    <img src="./assets/Lana Del Rey 4.jpg" alt="Artist Image 1">
+                </div>
+                <div>
+                    <a href="https://open.spotify.com/artist/00FQb4jTyendYWaN8pK0wa?si=00b276cc22de49e2" target="_blank"><h2>Lana Del Rey</h2></a>
+                    <p>Genre: Alternative,Chamber,Baroque pop,Trip hop, Neo-Psychedelia</p>
+                    <p>Albums: Ultraviolence, Norman Fucking Rockwell, Born to Die</p>
+                </div>
+                <div class="space--empty--artist"> </div>
+                
+            </li>
+            <li class="artist-item">
+                <div class="image-container"onclick="showFullImage(this)">
+                    <img src="./assets/Tyler, The Creator.jpg" alt="Artist Image 1">
+                </div>
+                <div>
+                    <a href="https://open.spotify.com/artist/4V8LLVI7PbaPR0K2TGSxFF?si=1af75db7f2c944af" target="_blank"><h2>Tyler, The Creator</h2></a>
+                    <p>Genre: Alternative hip hop jazz rap neo soul horrorcore</p>
+                    <p>Albums:IGOR, Flower Boy, Call Me If You Get Lost</p>
+                </div>
+                <div class="space--empty--artist--3"> 
+                <li class="artist-item">
+                    <div class="image-container"onclick="showFullImage(this)">
+                        <img src="./assets/Frank Ocean.jpg" alt="Artist Image 1">
+                    </div>
+                    <div>
+                        <a href="https://open.spotify.com/artist/2h93pZq0e7k5yf4dywlkpM?si=1a57542c24b94711" target="_blank"><h2>Frank Ocean</h2> </a>
+                        <p>Genre: Alternative R&B genre, Pop</p>
+                        <p>Albums:Channel Orange, Blonde</p>
+                    </div>
+                    <div class="space--empty--artist--2"> </div>
+                    
+                </li>
+            </li>
+            <button class="btn-31" id="showMoreArtists"><span class="text-container">
+                <span class="text">Click here to see more Artist</span>
+              </span>
+            </button>
+            <ul class="artist-list hide" id="moreArtists">
+                <li class="artist-item">
+                    <div class="image-container"onclick="showFullImage(this)">
+                        <img src="./assets/Mac DeMarco.jpg" alt="Artist Image 1">
+                    </div>
+                    <div>
+                        <a href="https://open.spotify.com/artist/3Sz7ZnJQBIHsXLUSo0OQtM?si=a03dfeca40ad41a3" target="_blank"><h2>Mac DeMarco</h2> </a>
+                        <p>Genre: Jizz jazz,Slacker rock,Indie rock</p>
+                        <p>Albums: This Old Dog, 2, Another One</p>
+                    </div>
+                    <div class="space--empty--artist--7"> </div>
+                    
+                </li>
+                <li class="artist-item">
+                    <div class="image-container"onclick="showFullImage(this)">
+                        <img src="./assets/Mitski.jpg" alt="Artist Image 1">
+                    </div>
+                    <div>
+                        <a href="https://open.spotify.com/artist/2uYWxilOVlUdk4oV9DvwqK?si=550b1ac357534e47" target="_blank"><h2>Mitski</h2> </a>
+                        <p>Genre: Alternative/Indie, Folk Rock, Art Pop</p>
+                        <p>Albums:Be the Cowboy, Puberty 2, Bury Me at Makeout Creek</p>
+                    </div>
+                    <div class="space--empty--artist--4"> </div>
+                    
+                </li>
+                <li class="artist-item">
+                    <div class="image-container"onclick="showFullImage(this)">
+                        <img src="./assets/Beabadobee1.jpg" alt="Artist Image 1">
+                    </div>
+                    <div>
+                        <a href="https://open.spotify.com/artist/35l9BRT7MXmM8bv2WDQiyB?si=b16d3e82185741e7" target="_blank"><h2>Beabadobee</h2></a>
+                        <p>Genre:Alternative/Indie,Space rock, Samba, Slacker rock, Folk-pop, Bedroom pop ·</p>
+                        <p>Albums: Beatopia, Fake It Flowers, Patched Up</p>
+                    </div>
+                    <div class="space--empty--artist--6"> </div>
+                    
+                </li>
+                <li class="artist-item">
+                    <div class="image-container"onclick="showFullImage(this)">
+                        <img src="./assets/LilyPichu.jpg" alt="Artist Image 1">
+                    </div>
+                    <div>
+                        <a href="https://open.spotify.com/artist/6maAVJxVTGW1xA3LokpQm8?si=92a34e1df7a5471b" target="_blank"><h2>LilyPichu</h2> </a>
+                        <p>Genre: Interlunium, Intergalactic sad disco, Piano</p>
+                        <p>Singles:Last Cup of Coffee, Dreamy Night, POM POM</p>
+                    </div>
+                    <div class="space--empty--artist--3"> </div>
+                    
+                </li>
+                <li class="artist-item">
+                    <div class="image-container"onclick="showFullImage(this)">
+                        <img src="./assets/TUYU1.jpg" alt="Artist Image 1">
+                    </div>
+                    <div>
+                        <a href="https://open.spotify.com/artist/0PHf0oiic0xAnCrRuLTtHl?si=c6202a50d27a49c9" target="_blank"><h2>TUYU (ツユ)</h2> </a>
+                        <p>Genre:J-Pop,J-Rock</p>
+                        <p>Albums:It's Raining After All, Under Mentality,貴方を不幸に誘いますね(I'll put you in misery )</p>
+                    </div>
+                    <div class="space--empty--artist--5"> </div>
+                    
+                </li>
+                <li class="artist-item">
+                    <div class="image-container"onclick="showFullImage(this)">
+                        <img src="./assets/TV_Girl_-_Who_Really_Cares.png" alt="Artist Image 1">
+                    </div>
+                    <div>
+                        <a href="https://open.spotify.com/artist/0Y6dVaC9DZtPNH4591M42W?si=e73dbde146804896" target="_blank"><h2>TV Girl</h2> </a>
+                        <p>Genre:  Neo-Psychedelia, Indie Pop, Bedroom Pop</p>
+                        <p>Albums: Who Really Cares, French Exit, Death of a Party Girl</p>
+                    </div>
+                    <div class="space--empty--artist--4"> </div> 
+                    
+                </li>
+                <li class="artist-item">
+                    <div class="image-container"onclick="showFullImage(this)">
+                        <img src="./assets/Clairo.jpg" alt="Artist Image 1">
+                    </div>
+                    <div>
+                        <a href="https://open.spotify.com/artist/3l0CmX0FuQjFxr8SK7Vqag?si=4024dd3c33d047ac" target="_blank"><h2>Clairo</h2> </a>
+                        <p>Genre: Bedroom Pop, Indie</p>
+                        <p>Albums:Immunity, Sling, Diary 001</p>
+                    </div>
+                    <div class="space--empty--artist--2"> </div>
+                    
+                </li>
+                <li class="artist-item">
+                    <div class="image-container"onclick="showFullImage(this)">
+                        <img src="./assets/The Smiths.jpg" alt="Artist Image 1">
+                    </div>
+                    <div>
+                        <a href="https://open.spotify.com/artist/3yY2gUcIsjMr8hjo51PoJ8?si=506b5a5885b946b1" target="_blank"><h2>The Smiths</h2> </a>
+                        <p>Genre:Indie Pop,Indie Alternative Rock, 80's </p>
+                        <p>Albums:The Queen Is Dead, Louder Than Bombs, Hatful of Hollow</p>
+                    </div>
+                    <div class="space--empty--artist"> </div>
+                    
+                </li>
+
+            </ul>
+        </ul>
+    </div>
+    <body>
+  
+       
+  <script src="./assets/index.js" type="text/javascript"></script>
+    
+   
+</body>            <!-- <a href="https://sptfy.com/QqvQ~s"></a> --><!-- <a href="https://volt.fm/user/g8jc6d54kao0owdw?time_frame=long"> </a> -->
+
+</html>
